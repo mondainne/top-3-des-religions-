@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Top 3</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            width: auto;
+            margin: auto;
+        }
+/*le code des 3 images*/
+        .image1 {
+           border-radius: 5px;
+        }
+/*le codage de la liste au debut*/
+        .liste {
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+/*le codage de la taille et forme du carrée*/
+        .carre {
+            width: 400px;
+            height: 400px;
+            border: 3px solid black;
+            margin: 0 30px;
+            color: #381C13;
+            border-radius: 10px;
+        }
+/*le codage des 2 lignes verticales*/
+        .ligne1 {
+            width: 3px;
+            height: 400px;
+            background-color: black;
+            transform: translateY(0%);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            margin: 0 15px;
+        }
+/*codage du carrée arceus*/
+        .Arceusisme {
+            background-color: #E3F3FF;
+            border-color: #0092FF;
+        }
+/*codage du carrée jediisme*/
+        .Jediisme {
+            background-color: #E2FFEF;
+            border-color: #00FF70;
+        }
+/*codage du carrée babaisme*/
+        .Babaisme {
+            background-color: #FFF6E2;
+            border-color: #FFB000;
+        }
+/*codage du texte entre les carrée*/
+        .texte {
+            font-size: 25px;
+            font-family: sans-serif;
+        }
+/*codage des titre dans les carrée*/
+        .titre {
+            font-size: 40px;
+            font-family: sans-serif;
+            text-align: center;
+            font-weight: bold;
+        }
+/*codage des boutons dans les carrées*/
+        .bouton1 {
+             width: 60;
+            height: 40;
+            color: #381C13;
+            background-color:#FFE3E3 ;
+            border: 1px solid black;
+            border-color:#FA483E ;
+            border-radius: 10px;
+            align-content: center;
+            text-align: center;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+/*codage du changement de couleur des boutons*/
+        .bouton1:hover {
+      background-color: #FA483E;
+    }
+
+        .bouton2 {
+             width: 50;
+            height: 50;
+            color: #381C13;
+            background-color:#FFE3E3 ;
+            border: 1px solid black;
+            border-color:#FA483E ;
+            border-radius: 10px;
+            align-content: center;
+            text-align: center;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+/*codage du changement de couleur des boutons*/
+        .bouton2:hover {
+      background-color: #FA483E;
+    }
+
+
+/*codage du footeravec les mentions legal ...*/
+        footer {
+            font-size: 12px;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+    </head>
+    <body>
+
+
+  <div class="container">
+  <div class="liste">
+  <ul>
+    <li>
+      <p>Vous en avez marre des religions traditionnelles ?</p>
+    </li>
+    <li>
+      <p>Vous cherchez quelque chose de plus original, de plus fun ?</p>
+    </li>
+    <li>
+      <p>Si c’est le cas, alors notre site web est fait pour vous !</p>
+    </li>
+    <li>
+      <p>Nous vous proposons un top 3 des meilleures religions.</p>
+    </li>
+  </ul>
+</div>
+
+
+
+<div class="image1">
+
+    <img src="arceus1.jpeg" alt="Arceusisme" width="180" height="180" style="margin: 10px;">
+    </div> 
+<div class="image1">
+
+    <img src="jedi.jpg" alt="Jediisme" width="180" height="180"   style="margin: 10px;">
+</div>
+<div class="image1">
+    <img src="motobaba.JPG" alt="Babaisme" width="180" height="180"     style="margin: 10px;">
+</div> 
+</div>
+</div>
+
+    
+    <hr width="1200" height="5">
+    <br>
+    <div class="container">
+        <div class="carre Arceusisme">
+            <div class="texte">
+                <div class="titre">
+                <a href="https://www.google.com" onclick="alert('Vous avez cliqué sur le boutonn pour connaitre l arceusisme, POURQUOI!!!')">Arceusisme</a>
+            </div>
+<br>
+<br>
+                En tête de notre classement, on retrouve l'Arceusisme, une religion qui tourne autour d'Arceus, le dieu de Pokémon. Les Arceusistes croient qu'Arceus est le créateur de l'univers et qu'il est le seul être à pouvoir le sauver.
+                <br>
+                <br>
+                <div class="bouton1">
+                <a href="arc.html" onclick="alert('Vous avez cliqué sur le boutonn pour connaitre l arceusisme, POURQUOI!!!')">Arceusisme</a>
+                </div>
+        </div>
+        </div>
+        <div class="ligne1"></div>
+        <div class="carre Jediisme">
+            <div class="texte">
+                <div class="texte titre">
+                <a href="arc.html" onclick="alert('Vous avez cliqué sur le boutonn pour connaitre le jediisme, POURQUOI!!!')">Jediisme</a>
+            </div>
+<br>
+<br>
+                En deuxième position, on trouve le Jediisme, une religion inspirée des chevaliers Jedi fictifs de l'univers Star Wars. Les Jediistes pratiquent des arts martiaux et des méditations pour maîtriser la force et devenir des Jedi.
+                <br>
+                <br>
+                <div class="bouton1">
+                <a href="jedi.html" onclick="alert('Vous avez cliqué sur le boutonn pour connaitre le jediisme, POURQUOI!!!')">Jediisme</a>
+            </div>
+
+        </div>
+        </div>
+        <div class="ligne1"></div>
+        <div class="carre Babaisme">
+            <div class="texte">
+                <div class="texte titre">
+                <a href="https://www.google.com" onclick="alert('Vous avez cliqué sur le boutonn pour connaitre le babaisme, POURQUOI!!!')">Babaisme</a>
+            </div>
+<br>
+<br>
+                Enfin, en troisième position, on retrouve le Bullet Babaisme, une religion qui tourne autour d'un mystère sur Bullet Baba qui est une femme qui a été tué par balle et dont le corps a été retrouvé dans une grotte avec une moto.
+                <br>
+                <br>
+                <div class="bouton1">
+                <a href="Babaisme.html" onclick="alert('Vous avez cliqué sur le boutonn pour connaitre le babaisme, POURQUOI!!!')">Babaisme</a>
+            </div>
+
+        </div>
+        </div>
+    </div>
+
+    <br>
+    <hr width="1200" height="5">
+    <br>
+
+</body>
+<footer>
+
+       <div class="bouton2">
+    <a href="https://www.facebook.com/?locale=fr_FR">-  Facebook  -</a>
+    <br>
+    <a href="https://twitter.com/home">-  Twitter  -</a>
+    <br>
+    <a href="https://www.linkedin.com/feed/">-  LinkedIn  -</a>
+    <br>
+    <a href="https://www.instagram.com/">-  Instagram  -</a>
+        </div>
+                <p>
+                Ce site web a été réaliser par Carousselle SEREMES Mathis-PAVIUS Lehann-SAINT-MAXIMIN Kenny.
+                    <br>
+                Le site internet [Le Top 3 Des Meilleurs Religions] peut contenir des liens hypertextes vers d'autres sites internet.
+                    <br>
+                [Carousselle] n'a pas de contrôle sur les contenus de ces sites internet et ne saurait en aucun cas être tenu responsable de leur contenu.
+                    <br>
+                Pour toute question, vous pouvez contacter Carousselle à l'adresse suivante : carousselle@gmail.com.
+            </p>
+</footer>
+</html>

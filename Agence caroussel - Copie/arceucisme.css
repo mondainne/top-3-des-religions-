@@ -1,0 +1,60 @@
+.container {
+    background-color: #E3F3FF; 
+    border-color: #0092FF;
+    width: 2000px;
+    height: 100px;
+    border: 3px solid #0092FF;
+    margin: 0 0px;
+    color: #381C13;
+    border-radius: 10px;
+}
+    .container p{
+        font-size: 90px;
+        font-family: sans-serif;
+        margin: 0 300px;
+        font-weight: bold;   
+}
+.container1 p{
+    font-size: 20px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0 350px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.0);
+    width: 35%;
+    margin-top: -300px;
+   
+}
+
+.container2 p{
+    margin-bottom: -460px;
+    margin-right: 525px
+}
+
+.texte p{
+    font-size: 20px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0 390px;
+    font-weight: bold;
+    
+}
+.texte2 p{
+    float: right;
+    width: 25%;
+    margin-top: -90px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.0);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold; 
+    
+}
+.image {  
+   
+    float: right;;
+    margin-top: -470px;
+    margin-right: 425px
+    
+}
+.image2{
+    margin-left: 70px;
+    margin-bottom: 60px;
+    
+}
